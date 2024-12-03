@@ -62,8 +62,7 @@ A comprehensive **web-based Car Rental System** developed using **HTML, CSS, Jav
 Start by cloning the project repository:
 
 ```bash
-git clone https://github.com/eranmadhuka/rentridesystem.git
-cd rentridesystem
+git clone https://github.com/eranmadhuka/carzo.git
 ```
 
 ### 2. Set Up the Database
