@@ -38,7 +38,7 @@ include 'includes/config.php'; // Database Connection
                 if ($result && mysqli_num_rows($result) > 0) {
                     $record = mysqli_fetch_assoc($result);
 
-                    ?>
+            ?>
                     <div class="main-cards">
                         <div class="card">
                             <div class="card-title">
@@ -96,11 +96,11 @@ include 'includes/config.php'; // Database Connection
                                     <th>Booking Status</th>
                                     <td>
                                         <?php
-                                            if($record['status'] == '1') {
-                                                echo "Confirmed";
-                                            } else {
-                                                echo "Cancelled";
-                                            }
+                                        if ($record['status'] == '1') {
+                                            echo "Confirmed";
+                                        } else {
+                                            echo "Cancelled";
+                                        }
                                         ?>
                                     </td>
                                     <th>Last Update Date</th>
@@ -109,15 +109,15 @@ include 'includes/config.php'; // Database Connection
                             </table>
                         </div>
                     </div>
-                    <?php
+            <?php
                 }
             }
             ?>
         </main>
 
         <footer class="footer">
-            <div class="footer__copyright">&copy; 2023 EM</div>
-            <div class="footer__signature">Made with love by pure genius</div>
+            <div class="footer__copyright">&copy; 2023</div>
+            <div class="footer__signature">Made by group MLB_11.02_07</div>
         </footer>
     </div>
 
