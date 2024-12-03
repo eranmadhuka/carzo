@@ -45,7 +45,7 @@ A comprehensive **web-based Car Rental System** developed using **HTML, CSS, Jav
 
 ## 🌟 **Screenshots**
 <p align="center">
-  <img src="screenshots/screenshot0.png" width="300" height="600">
+  <img src="screenshots/screenshot1.png" width="300">
   <img src="screenshots/screenshot2.png" width="300">
   <img src="screenshots/screenshot3.png" width="300">
   <img src="screenshots/screenshot4.png" width="300">
@@ -53,7 +53,6 @@ A comprehensive **web-based Car Rental System** developed using **HTML, CSS, Jav
   <img src="screenshots/screenshot6.png" width="300">
   <img src="screenshots/screenshot7.png" width="300">
   <img src="screenshots/screenshot8.png" width="300">
-  <img src="screenshots/screenshot9.png" width="300">
 </p>
 
 ---
