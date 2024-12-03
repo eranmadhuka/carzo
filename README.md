@@ -32,12 +32,12 @@ A comprehensive **web-based Car Rental System** developed using **HTML, CSS, Jav
 
 ## 📊 **Login Credentials**
 #### Admin Login:
-- URL: http://localhost/sliit/carzo/admin/
+- URL: http://localhost/carzo/admin/
 - Email: admin@email.com
 - Password: admin
 
 #### Employee
-- URL: http://localhost/sliit/carzo/signin.php
+- URL: http://localhost/carzo/signin.php
 - Email: user@gmail.com
 - Password: user
 
@@ -75,5 +75,5 @@ git clone https://github.com/eranmadhuka/carzo.git
 - Use tools like XAMPP or WAMP to run a local PHP server. Ensure that the server is running and the necessary services (Apache, MySQL) are enabled.
 
 ### 4. Run the Application
-- User Panel: Navigate to http://localhost/sliit/carzo/signin.php to access the user login and registration page.
-- Admin Panel: Navigate to http://localhost/sliit/carzo/admin/ to access the admin dashboard.
+- User Panel: Navigate to http://localhost/carzo/signin.php to access the user login and registration page.
+- Admin Panel: Navigate to http://localhost/carzo/admin/ to access the admin dashboard.
