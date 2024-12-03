@@ -1,4 +1,4 @@
-# 🚗 **RentRide** – Vehicle Rental System
+# 🚗 **carzo** – Vehicle Rental System
 
 A comprehensive **web-based Car Rental System** developed using **HTML, CSS, JavaScript, PHP, and MySQL**, designed to streamline car rental services for both users and administrators. With an intuitive user interface and robust admin panel, the system provides a seamless experience for renting vehicles and managing rental inventory.
 
