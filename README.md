@@ -1,52 +1,78 @@
+# 🚗 **RentRide** – Vehicle Rental System
 
-## Rentride
+A comprehensive **web-based Car Rental System** developed using **HTML, CSS, JavaScript, PHP, and MySQL**, designed to streamline car rental services for both users and administrators. With an intuitive user interface and robust admin panel, the system provides a seamless experience for renting vehicles and managing rental inventory.
 
-This project is a web-based Car Rental System developed using HTML, CSS, JavaScript, PHP, and MySQL. It provides a platform for users to easily register, log in, and book vehicles for rental, akin to a typical car rental company. Additionally, the system includes an admin panel with functionalities for adding vehicles and brands to the rental fleet.
+---
 
-Key Features:
+## 🚀 **Key Features**
 
-User Registration and Login: Users can create accounts and log in securely to the system, allowing them to access the rental services.
+### User Features:
+- **User Registration & Login**:  
+  Users can securely register and log in to their accounts to access car rental services.  
+- **Vehicle Booking**:  
+  Registered users can browse available vehicles, view details, and book them for rental with ease.
 
-Vehicle Booking: Registered users have the capability to browse available vehicles and make reservations, ensuring a streamlined and user-friendly experience.
+### Admin Features:
+- **Admin Dashboard**:  
+  Admins can log in to an exclusive panel to manage the system.  
+- **Vehicle & Brand Management**:  
+  Add new vehicles and brands to the rental fleet with full control over inventory.  
+- **User and Booking Management**:  
+  Monitor user activities and manage bookings efficiently.
 
-Admin Panel: The admin interface offers authorized personnel the ability to manage the car rental inventory by adding new vehicles and brands.
+---
 
-This project is designed to serve as a fully functional car rental system, encompassing both user and administrative functionalities. Whether you are a car rental company looking to digitize your operations or a developer seeking to learn about web-based systems, this project can serve as a valuable reference.
+## 🛠️ **Tech Stack**
 
-Here are the login credentials and URLs for the user and admin roles in your Car Rental System:
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap  
+- **Backend**: PHP  
+- **Database**: MySQL  
 
-Admin Login:
+---
 
-URL: http://localhost/sliit/carzo/admin/
-Email: admin@email.com
-Password: admin
-User Login:
+## 📊 **Login Credentials**
+#### Admin Login:
+- URL: http://localhost/sliit/carzo/admin/
+- Email: admin@email.com
+- Password: admin
 
-URL: http://localhost/sliit/carzo/signin.php
-Email: user@gmail.com
-Password: user
+#### Employee
+- URL: http://localhost/sliit/carzo/signin.php
+- Email: user@gmail.com
+- Password: user
 
+---
 
-## Authors
+## 🌟 **Screenshots**
+<p align="center">
+  <img src="screenshots/screenshot1.png" width="300">
+  <img src="screenshots/screenshot2.png" width="300">
+  <img src="screenshots/screenshot3.png" width="300">
+  <img src="screenshots/screenshot4.png" width="300">
+  <img src="screenshots/screenshot5.png" width="300">
+  <img src="screenshots/screenshot6.png" width="300">
+</p>
 
-- [@eranmadhuka](https://github.com/eranmadhuka)
+---
 
+## 🔧 **Installation and Setup**
 
-## 🚀 About Me
-I am a dedicated university student pursuing a degree in Information Communication and Technology (ICT). My educational journey has been centered around exploring the intricacies of modern technology and its diverse applications. Specifically, I am deeply passionate about web application development, and I am currently honing my skills in full stack development.
+### 1. Clone the Repository
 
-As a technology enthusiast, I thrive on embracing new challenges and constantly expanding my knowledge base. My commitment to the field of ICT extends beyond the classroom, and I am eager to engage in hands-on projects that push the boundaries of what is possible in the digital world.
+Start by cloning the project repository:
 
-This project, a web-based car rental system, is a testament to my dedication to mastering the art of full stack web application development. It serves as both a practical application of my learning and a glimpse into the potential that modern technology holds. I am excited to share my work with the world and continue my journey of growth in the ever-evolving realm of technology.
+```bash
+git clone https://github.com/eranmadhuka/rentridesystem.git
+cd rentridesystem
+```
 
+### 2. Set Up the Database
+- Import the provided database.sql file into your MySQL database.
+- Update the database connection settings in includes/dbconfig.php to match your MySQL credentials (username, password, and database name).
 
-## 🛠 Skills
-Javascript, HTML, CSS, PHP, JAVA, REACT JS, NODE JS, Bootstrap and MySQL
+### 3. Start a Local Server
+- Use tools like XAMPP or WAMP to run a local PHP server. Ensure that the server is running and the necessary services (Apache, MySQL) are enabled.
 
-
-## Roadmap
-
-- Additional browser support
-
-- Add more integrations
-
+### 4. Run the Application
+- User Panel: Navigate to http://localhost/sliit/carzo/signin.php to access the user login and registration page.
+- Admin Panel: Navigate to http://localhost/sliit/carzo/admin/ to access the admin dashboard.
